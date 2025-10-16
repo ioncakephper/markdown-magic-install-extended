@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/ioncakephper/markdown-magic-install-extended/compare/v1.1.1...v1.2.0) (2025-10-16)
+
+
+### Features
+
+* **build:** add prep script ([ff23d5c](https://github.com/ioncakephper/markdown-magic-install-extended/commit/ff23d5c16daf701130dec1a08f1f53c407ee4668))
+
 ## [1.1.1](https://github.com/ioncakephper/markdown-magic-install-extended/compare/v1.1.0...v1.1.1) (2025-10-16)
 
 ### Bug Fixes
