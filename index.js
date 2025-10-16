@@ -12,11 +12,12 @@ function installExtended({ options = {} } = {}) {
     npm: true,
     yarn: true,
     pnpm: false,
+    bun: false,
     global: false,
     dev: false,
   };
 
-  const { heading, packageName, npm, yarn, pnpm, global, dev } = {
+  const { heading, packageName, npm, yarn, pnpm, bun, global, dev } = {
     ...defaults,
     ...options,
   };
@@ -38,6 +39,11 @@ function installExtended({ options = {} } = {}) {
   if (pnpm) {
     out += '```bash\n';
     out += `pnpm add ${global ? '-g ' : ''}${packageName}${dev ? ' -D' : ''}\n`;
+    out += '```\n\n';
+  }
+  if (bun) {
+    out += '```bash\n';
+    out += `bun install ${global ? '-g ' : ''}${packageName}${dev ? ' -d' : ''}\n`;
     out += '```\n\n';
   }
 
