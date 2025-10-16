@@ -98,7 +98,7 @@ npm install <your-package-name>
 Each option can be set globally in your `markdown-magic.config.js` file or overridden inline in your README using comment attributes, for example:
 
 ```md
-<!-- $$doc-gen$$ INSTALL packageName=my-lib yarn=false bun=true heading="Getting Started" -->
+<!-- $$doc-gen$$ INSTALLEXTENDED packageName=my-lib yarn=false bun=true heading="Getting Started" -->
 <!-- end-$$doc-gen$$ -->
 ```
 
