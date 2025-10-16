@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/ioncakephper/markdown-magic-install-extended/compare/v1.1.0...v1.1.1) (2025-10-16)
+
+
+### Bug Fixes
+
+* **README:** Correct transform name in example ([a0c3d2f](https://github.com/ioncakephper/markdown-magic-install-extended/commit/a0c3d2f4e139af49fb33a9b52dc903183e786331))
+
 ## [1.1.0](https://github.com/ioncakephper/markdown-magic-install-extended/compare/v1.0.3...v1.1.0) (2025-10-16)
 
 
