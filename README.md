@@ -1,6 +1,6 @@
 # markdown-magic-install-extended
 
-[![npm version](https://img.shields.io/npm/v/markdown-magic-install-extended.svg)](https://www.npmjs.com/package/markdown-magic-install-extended) [![Build Status](https://github.com/<your-username>/markdown-magic-install-extended/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/markdown-magic-install-extended/actions) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![npm downloads](https://img.shields.io/npm/dm/markdown-magic-install-extended.svg)](https://www.npmjs.com/package/markdown-magic-install-extended) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/<your-username>/markdown-magic-install-extended/graphs/commit-activity)
+[![npm version](https://img.shields.io/npm/v/markdown-magic-install-extended.svg)](https://www.npmjs.com/package/markdown-magic-install-extended) [![Build Status](https://github.com/ioncakephper/markdown-magic-install-extended/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/markdown-magic-install-extended/actions) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![npm downloads](https://img.shields.io/npm/dm/markdown-magic-install-extended.svg)](https://www.npmjs.com/package/markdown-magic-install-extended) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/<your-username>/markdown-magic-install-extended/graphs/commit-activity)
 
 An extended `INSTALL` transform for [markdown-magic](https://www.npmjs.com/package/markdown-magic).
 
@@ -8,10 +8,12 @@ An extended `INSTALL` transform for [markdown-magic](https://www.npmjs.com/packa
 
 <!-- doc-gen TOC -->
 
-- [Features](#features)
-- [Usage](#usage)
-- [Available Scripts](#available-scripts)
-- [Project Structure](#project-structure)
+- [markdown-magic-install-extended](#markdown-magic-install-extended)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Usage](#usage)
+  - [Available Scripts](#available-scripts)
+  - [Project Structure](#project-structure)
 <!-- end-doc-gen -->
 
 ## Features
