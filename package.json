@@ -35,7 +35,7 @@
     "format:package": "prettier --write package.json",
     "lint": "eslint . --ext .js,.json,.yaml,.md",
     "lint:fix": "eslint . --ext .js,.json,.yaml,.md --fix",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "dependencies": {
     "prettier-plugin-packagejson": "^2.5.19"
