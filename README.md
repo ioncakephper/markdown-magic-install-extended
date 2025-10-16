@@ -7,17 +7,19 @@ An extended `INSTALL` transform for [markdown-magic](https://www.npmjs.com/packa
 ## Table of Contents
 
 <!-- doc-gen TOC -->
-- [markdown-magic-install-extended](#markdown-magic-install-extended)
-  - [Table of Contents](#table-of-contents)
-  - [Why this exists](#why-this-exists)
-  - [Features](#features)
-  - [Usage](#usage)
-  - [Transform Options](#transform-options)
-  - [Helper Scripts](#helper-scripts)
-  - [Project Structure](#project-structure)
-  - [Contributing](#contributing)
-  - [License](#license)
+
+- [Why this exists](#why-this-exists)
+- [Features](#features)
+- [Usage](#usage)
+- [Installation](#installation)
+- [Installation](#installation-1)
+- [Transform Options](#transform-options)
+- [Helper Scripts](#helper-scripts)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 <!-- end-doc-gen -->
+
 ## Why this exists
 
 `markdown-magic@3.7.0` ships with **two different install transforms**:
@@ -130,74 +132,86 @@ The scripts listed below aren’t just boilerplate — they’re designed to hel
 👉 Don’t ignore these scripts — they’re your toolkit for keeping the repository healthy. Run them often, especially before committing or opening a pull request, to ensure your contributions meet the project’s standards.
 
 <!-- doc-gen SCRIPTS format=list -->
-- `docs` — Generate documentation in README.md (line [53](./package.json#L53))
+
+- `docs` — Generate documentation in README.md (line [54](./package.json#L54))
 
   ```bash
   npx markdown-magic README.md --config ./markdown-magic.config.js
   ```
 
-- `fix` — Run linting and formatting fixes (line [54](./package.json#L54))
+- `fix` — Run linting and formatting fixes (line [55](./package.json#L55))
 
   ```bash
   npm run lint:fix && npm run format && npm run format:package
   ```
 
-- `format` — Format all files using Prettier (line [55](./package.json#L55))
+- `format` — Format all files using Prettier (line [56](./package.json#L56))
 
   ```bash
   prettier --write .
   ```
 
-- `format:package` — Format package.json using Prettier (line [56](./package.json#L56))
+- `format:package` — Format package.json using Prettier (line [57](./package.json#L57))
 
   ```bash
   prettier --write package.json
   ```
 
-- `lint` — Lint all .js, .json, .yaml, and .md files using ESLint (line [57](./package.json#L57))
+- `lint` — Lint all .js, .json, .yaml, and .md files using ESLint (line [58](./package.json#L58))
 
   ```bash
-  eslint . --ext .js,.json,.yaml,.md
+  eslint . --ext .js,.json,.yaml,.yml,.md
   ```
 
-- `lint:fix` — Lint and automatically fix issues in .js, .json, .yaml, and .md files using ESLint (line [58](./package.json#L58))
+- `lint:fix` — Lint and automatically fix issues in .js, .json, .yaml, and .md files using ESLint (line [59](./package.json#L59))
 
   ```bash
-  eslint . --ext .js,.json,.yaml,.md --fix
+  eslint . --ext .js,.json,.yaml,.yml,.md --fix
   ```
 
-- `test` — Run tests using Jest (line [59](./package.json#L59))
+- `prep` — Prepare the package for publishing by updating docs and fixing formatting (line [61](./package.json#L61))
+
+  ```bash
+  npm run docs && npm run fix
+  ```
+
+- `test` — Run tests using Jest (line [60](./package.json#L60))
 
   ```bash
   jest --passWithNoTests
   ```
-<!-- end-doc-gen -->
+
+  <!-- end-doc-gen -->
 
 ## Project Structure
 
 <!-- doc-gen fileTree -->
+
 ```
 └── markdown-magic-install-extended/
     ├── .prettierrc.json
     ├── CHANGELOG.md
+    ├── CONTRIBUTING.md
     ├── eslint.config.js
     ├── index.js
     ├── LICENSE
     ├── markdown-magic.config.js
     ├── package-lock.json
     ├── package.json
-    └── README.md
+    ├── README.md
+    └── RULES_OF_CONDUCT.md
 ```
+
 <!-- end-doc-gen -->
 
 ## Contributing
 
-Contributions are welcome! 🎉  
+Contributions are welcome! 🎉
 
-If you’d like to improve **markdown-magic-install-extended**, please open an issue or submit a pull request.  
+If you’d like to improve **markdown-magic-install-extended**, please open an issue or submit a pull request.
 
-- See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.  
-- Please review our [Rules of Conduct](RULES_OF_CONDUCT.md) to ensure a respectful and collaborative environment.  
+- See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+- Please review our [Rules of Conduct](RULES_OF_CONDUCT.md) to ensure a respectful and collaborative environment.
 
 Your feedback, bug reports, and feature ideas help make this project better for everyone.
 

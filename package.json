@@ -33,9 +33,10 @@
     "fix": "npm run lint:fix && npm run format && npm run format:package",
     "format": "prettier --write .",
     "format:package": "prettier --write package.json",
-    "lint": "eslint . --ext .js,.json,.yaml,.md",
-    "lint:fix": "eslint . --ext .js,.json,.yaml,.md --fix",
-    "test": "jest --passWithNoTests"
+    "lint": "eslint . --ext .js,.json,.yaml,.yml,.md",
+    "lint:fix": "eslint . --ext .js,.json,.yaml,.yml,.md --fix",
+    "test": "jest --passWithNoTests",
+    "prep": "npm run docs && npm run fix"
   },
   "devDependencies": {
     "@eslint/js": "^9.37.0",
@@ -56,6 +57,7 @@
     "format:package": "Format package.json using Prettier",
     "lint": "Lint all .js, .json, .yaml, and .md files using ESLint",
     "lint:fix": "Lint and automatically fix issues in .js, .json, .yaml, and .md files using ESLint",
-    "test": "Run tests using Jest"
+    "test": "Run tests using Jest",
+    "prep": "Prepare the package for publishing by updating docs and fixing formatting"
   }
 }

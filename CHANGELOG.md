@@ -2,18 +2,16 @@
 
 ## [1.1.1](https://github.com/ioncakephper/markdown-magic-install-extended/compare/v1.1.0...v1.1.1) (2025-10-16)
 
-
 ### Bug Fixes
 
-* **README:** Correct transform name in example ([a0c3d2f](https://github.com/ioncakephper/markdown-magic-install-extended/commit/a0c3d2f4e139af49fb33a9b52dc903183e786331))
+- **README:** Correct transform name in example ([a0c3d2f](https://github.com/ioncakephper/markdown-magic-install-extended/commit/a0c3d2f4e139af49fb33a9b52dc903183e786331))
 
 ## [1.1.0](https://github.com/ioncakephper/markdown-magic-install-extended/compare/v1.0.3...v1.1.0) (2025-10-16)
 
-
 ### Features
 
-* **install-extended:** add bun package manager support ([4fff222](https://github.com/ioncakephper/markdown-magic-install-extended/commit/4fff222a800e2f733e3ce39af36ec31c56f4a4ce))
-* **install-extended:** add bun package manager support ([7eb4a6c](https://github.com/ioncakephper/markdown-magic-install-extended/commit/7eb4a6c1f82ba45926f65962770d5ab7416d8d0c))
+- **install-extended:** add bun package manager support ([4fff222](https://github.com/ioncakephper/markdown-magic-install-extended/commit/4fff222a800e2f733e3ce39af36ec31c56f4a4ce))
+- **install-extended:** add bun package manager support ([7eb4a6c](https://github.com/ioncakephper/markdown-magic-install-extended/commit/7eb4a6c1f82ba45926f65962770d5ab7416d8d0c))
 
 ## [1.0.3](https://github.com/ioncakephper/markdown-magic-install-extended/compare/v1.0.2...v1.0.3) (2025-10-16)
 
