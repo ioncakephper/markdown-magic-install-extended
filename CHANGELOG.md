@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/ioncakephper/markdown-magic-install-extended/compare/v1.0.1...v1.0.2) (2025-10-16)
+
+
+### Bug Fixes
+
+* **README:** Update build status badge link in README ([de2c044](https://github.com/ioncakephper/markdown-magic-install-extended/commit/de2c0444e700d5085011a782da422b97f8fa598f))
+
 ## [1.0.1](https://github.com/ioncakephper/markdown-magic-install-extended/compare/v1.0.0...v1.0.1) (2025-10-16)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "markdown-magic-install-extended",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extended INSTALL transform for markdown-magic that generates install instructions from package.json with flexible options",
   "keywords": [
     "markdown-magic",
